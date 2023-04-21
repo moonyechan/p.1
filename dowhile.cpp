@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void) 
+{
     int k;
-    printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+    printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
     scanf_s("%d", &k);
-    do {
+    do 
+    {
         printf("%d", k % 10);
         k = k / 10;
     } while (k > 0);
