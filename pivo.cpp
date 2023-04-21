@@ -3,7 +3,7 @@ int main(void)
 {
 	int a = 0, b = 1, c, n;
 
-	printf("항을 어디까지 구할까요? ");
+	printf("몇번째 항까지 구할까요? ");
 
 	scanf_s("%d", &n);
 
