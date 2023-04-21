@@ -2,10 +2,10 @@
 int main(void)
 {
     int num, i;
-    printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+    printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
     scanf_s("%d", &num);
    
-    printf_s("¾à¼ö: ");
+    printf_s("ì•½ìˆ˜:");
     
     for (i = 1; i <= num; i++) {
         if (num % i == 0)
